@@ -240,3 +240,4 @@
 /Users/ashleydenison/Documents/GitHub/Mission9/Mission7/obj/Debug/netcoreapp3.1/Mission7.genruntimeconfig.cache
 /Users/ashleydenison/Documents/GitHub/Mission9/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseCompleted.cshtml.g.cs
 /Users/ashleydenison/Documents/GitHub/Mission9/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
+/Users/ashleydenison/Documents/GitHub/Mission9/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/CartSummary/Default.cshtml.g.cs
