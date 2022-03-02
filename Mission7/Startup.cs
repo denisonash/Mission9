@@ -36,12 +36,17 @@ namespace Mission7
             });
 
             services.AddScoped<IBookstoreRepository, EFBookstoreRepository>();
+            services.AddScoped<IPurchaseRepository, EFPurchaseRepository>();
 
             services.AddRazorPages();
 
             services.AddDistributedMemoryCache();
 
             services.AddSession();
+
+            services.AddScoped<Cart>(x => SessionCart.GetCart(x));
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
         }
 
 
